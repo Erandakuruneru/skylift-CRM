@@ -1,0 +1,14 @@
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\bin\Debug\netcoreapp2.1\Skylift.WebApi.deps.json
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\bin\Debug\netcoreapp2.1\Skylift.WebApi.runtimeconfig.json
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\bin\Debug\netcoreapp2.1\Skylift.WebApi.runtimeconfig.dev.json
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\bin\Debug\netcoreapp2.1\Skylift.WebApi.dll
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\bin\Debug\netcoreapp2.1\Skylift.WebApi.pdb
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.csprojAssemblyReference.cache
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.csproj.CoreCompileInputs.cache
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.RazorAssemblyInfo.cache
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.RazorAssemblyInfo.cs
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.AssemblyInfoInputs.cache
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.AssemblyInfo.cs
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.RazorTargetAssemblyInfo.cache
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.dll
+D:\Eranda\Project\skylift\Skylift\Skylift.WebApi\obj\Debug\netcoreapp2.1\Skylift.WebApi.pdb

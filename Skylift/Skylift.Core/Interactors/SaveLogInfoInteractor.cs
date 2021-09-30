@@ -51,16 +51,12 @@ namespace Skylift.Core.Interactors
             SaveLogInfoResponse response = new SaveLogInfoResponse();
             try
             {
-                if (request != null && request.Id > 0)
+                if (request != null)
                 {
                     using (TransactionScope scope = new TransactionScope())
                     {
                         Result<int> result = new Result<int>();
-
-                        if (request.Id > 0)
-                        {
-                            result = this.logRepository.InsertLogInfo(request.Id);
-                        }
+                            result = this.logRepository.InsertLogInfo(request.DeviceCode,request.CardNumber,request.UserId);
 
                         if (result.IsSuccess)
                         {

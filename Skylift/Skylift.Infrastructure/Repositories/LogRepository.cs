@@ -45,7 +45,7 @@ namespace Skylift.Infrastructure.Repositories
         public IConfiguration Configuration { get; }
 
 
-        public Result<int> InsertLogInfo(int buyerId)
+        public Result<int> InsertLogInfo(string deviceCode, string cardNumber,int userId)
         {
             Result<int> result = new Result<int>();
             result.IsSuccess = true;
@@ -54,11 +54,13 @@ namespace Skylift.Infrastructure.Repositories
             {
                 List<RequestParameter> parameterList = new List<RequestParameter>()
                 {
-                    new RequestParameter { ParameterName = "@buyer_id", ParameterValue = buyerId }
+                    new RequestParameter { ParameterName = "@device_code", ParameterValue = deviceCode },
+                    new RequestParameter { ParameterName = "@card_number", ParameterValue = cardNumber },
+                    new RequestParameter { ParameterName = "@user_id", ParameterValue = userId }
                 };
 
                 DBEngine dbEngine = new DBEngine(this.Configuration, this.logger);
-                int id = dbEngine.SaveData("update_delivery_date", parameterList);
+                int id = dbEngine.SaveData("insert_device_card_log", parameterList);
 
                 if (!dbEngine.IsSuccess)
                 {

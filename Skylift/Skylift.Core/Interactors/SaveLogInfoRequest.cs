@@ -9,8 +9,11 @@ namespace Skylift.Core.Interactors
     /// </summary>
     public class SaveLogInfoRequest
     {
-        /// </value>
-        public int Id { get; set; }
+        public string DeviceCode { get; set; }
+
+        public string CardNumber { get; set; }
+
+        public int UserId { get; set; }
 
     }
 }

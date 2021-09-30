@@ -14,7 +14,7 @@ namespace Skylift.Core.Interfaces.Repositories
         /// <returns>
         ///   <br />
         /// </returns>
-        Result<int> InsertLogInfo(int buyerId);
+        Result<int> InsertLogInfo(string deviceCode, string cardNumber, int userId);
     }
 }
 

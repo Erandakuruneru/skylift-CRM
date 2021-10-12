@@ -1,7 +1,11 @@
-﻿using System.Threading;
+﻿using System;
+using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Transactions;
 using Microsoft.Extensions.Logging;
 using Skylift.Core.Extensions;
+using Skylift.Core.Helpers;
 using Skylift.Core.Interfaces.Repositories;
 using Skylift.Core.Utilities;
 
@@ -62,6 +66,7 @@ namespace Skylift.Core.Interactors
                         {
                             if (result.Data > 0)
                             {
+                                this.SendEmail();
                                 response.id = result.Data;
                             }
 
@@ -88,6 +93,16 @@ namespace Skylift.Core.Interactors
             }
 
             return response;
+        }
+
+
+
+        private Result<List<string>> SendEmail()
+        {
+            Result<List<string>> documentResult = new Result<List<string>>();
+            var genarateDocResponse = EmailHelper.sendAsync();
+
+            return documentResult;
         }
     }
 }

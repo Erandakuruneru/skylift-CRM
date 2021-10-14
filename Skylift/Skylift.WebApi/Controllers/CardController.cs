@@ -53,5 +53,10 @@ namespace Skylift.WebApi.Controllers
                 return this.BadRequest("Invalid parameter(s)");
             }
         }
+        [HttpGet("test")]
+        public IActionResult LoadTest()
+        {
+            return this.Ok("API is working fine");
+        }
     }
 }

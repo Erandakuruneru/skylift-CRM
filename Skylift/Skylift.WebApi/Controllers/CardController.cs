@@ -57,6 +57,7 @@ namespace Skylift.WebApi.Controllers
         public IActionResult LoadTest()
         {
             return this.Ok("API is working fine");
+
         }
     }
 }

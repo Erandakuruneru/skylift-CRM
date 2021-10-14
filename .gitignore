@@ -259,11 +259,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-/SveaHusbilar/SveaHusbilar.WebApi/internal-nlog.txt
-SveaHusbilar/SveaHusbilar.WebApi/internal-nlog.txt
-/SveaHusbilar/SveaHusbilar.Jobs.PDFService/tmp
-/SveaHusbilar/SveaHusbilar.Jobs.PDFService/.env.local
-
-/SveaHusbilar/SveaHusbilar.Jobs.PDFService/.env.local
-/SveaHusbilar/SveaHusbilar.Jobs.PDFService/.env.local
-/SveaHusbilar/SveaHusbilar.Infrastructure/DBScripts/Feedback/DML/0.0_function_test.sql
+/Skylift/.vs
